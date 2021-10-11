@@ -1,0 +1,106 @@
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../font/Montserrat-Bold.ttf); }
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../font/Montserrat-Medium.ttf); }
+
+label {
+  display: none; }
+
+.firstNews {
+  text-align: center;
+  margin: 50px 0 25px 0; }
+  .firstNews__type {
+    text-decoration: none;
+    color: #cfd2cd;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    margin: 0px auto 10px;
+    display: inline-block; }
+  .firstNews__type:hover {
+    color: #847577;
+    transition: 0.3s;
+    text-decoration: none; }
+  .firstNews__title {
+    color: #847577;
+    font-family: Montserrat-Bold;
+    width: 80%;
+    margin: 0 auto 10px; }
+  .firstNews__title:hover {
+    color: #cfd2cd;
+    text-decoration: none;
+    transition: 0.3s; }
+  .firstNews__image {
+    width: 80%;
+    border-radius: 8px; }
+  .firstNews__content {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    font-family: Montserrat;
+    color: #847577; }
+
+.new {
+  display: inline-grid;
+  width: 30%;
+  margin: 50px 1% 50px 1.75%; }
+  .new__type {
+    text-decoration: none;
+    color: #cfd2cd;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    margin: 0px auto 10px; }
+  .new__type:hover {
+    color: #847577;
+    transition: 0.3s;
+    text-decoration: none; }
+  .new__title {
+    color: #847577;
+    font-family: Montserrat;
+    margin: 0 auto 10px; }
+  .new__title:hover {
+    color: #cfd2cd;
+    text-decoration: none;
+    transition: 0.3s; }
+  .new__image {
+    width: 80%;
+    margin: 0px auto 10px;
+    border-radius: 8px; }
+  .new__content {
+    font-family: Montserrat;
+    color: #847577; }
+
+.trends {
+  text-decoration: none;
+  color: #cfd2cd;
+  font-family: Montserrat;
+  margin: 0px auto 10px;
+  display: inline-block;
+  position: relative;
+  padding: 5px 13px;
+  line-height: 16px;
+  margin-right: 8px;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 100px;
+  border: 1px solid #e0e0e0;
+  font-weight: 700;
+  margin-bottom: 10px; }
+
+.trends:hover {
+  background-color: #847577;
+  color: #e5e6e4; }
+
+@media screen and (max-width: 768px) {
+  .new {
+    width: 40%;
+    margin-left: 8%; } }
+
+@media screen and (max-width: 579px) {
+  .new {
+    width: 80%;
+    margin-left: 10%; } }
+
+/*# sourceMappingURL=allNews.css.map */

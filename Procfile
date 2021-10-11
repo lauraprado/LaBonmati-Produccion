@@ -1,0 +1,1 @@
+web: gunicorn blogMaria.wsgi --log-file -

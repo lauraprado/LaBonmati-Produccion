@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../font/Montserrat-Bold.ttf); }
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../font/Montserrat-Medium.ttf); }
+
+.article__image {
+  width: 80%;
+  height: auto;
+  margin: 25px 10% 25px;
+  border-radius: 8px; }
+
+.article__category {
+  text-decoration: none;
+  color: #cfd2cd;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  margin: 0px 10% 10px;
+  display: inline-block; }
+
+.article__title {
+  color: #847577;
+  font-family: Montserrat-Bold;
+  width: 80%;
+  /* MODIFICACIONES 230821 
+  margin: 0 10% 10px;*/ }
+
+/* MODIFICACIONES 230821 */
+.article__title, h1 {
+  text-align: center;
+}
+
+.article__date {
+  color: #cfd2cd;
+  font-family: Montserrat;
+  font-size: 0.8em;
+  margin-left: 10%; }
+
+.article__content {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+  font-family: Montserrat;
+  color: #847577; }
+
+/*# sourceMappingURL=article.css.map */
